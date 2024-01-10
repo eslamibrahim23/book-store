@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./2.css">
+</head>
+
+<body>
+
+    <div class="st">
+        <h1> Book library</h1>
+        <div class="form1">
+            <label for="many">How many books</label>
+            <input type="text" id="many" class="booknum" name="booknum">
+            <button type="submit">Ok</button>
+            <br>
+            <span class="spann" id="span" onclick="clickform1(this)"> </span>
+        </div>
+
+        <div class="form2" style="visibility: hidden;">
+            <label for="bookname">Book'Name</label>
+            <br>
+            <input type="text" id="bookname" class="Bookname" name="Bookname">
+            <br>
+            <span class="spann" id="span"> </span><br>
+            <label for="price">Price</label>
+            <br>
+            <input type="text" id="price" class="price" name="price">
+            <br>
+            <span class="spann" id="span"> </span><br>
+            <label for="Authorname">Author Name</label>
+            <br>
+            <input type="text" id="Authorname" class="Authorname" name="Authorname">
+            <br>
+            <span class="spann" id="span"> </span><br>
+            <label for="Authoremail">Author E-mail </label>
+            <br>
+            <input type="text" id="Authoremail" class="Authoremail" name="Authoremail">
+            <br>
+            <span class="spann" id="span"> </span><br>
+            <br>
+            <button type="submit">Odsdask</button>
+        </div>
+
+
+
+        <table style="visibility: hidden;" border="2">
+            <thead>
+                <tr>
+                    <td >Book name</td>
+                    <td>price</td>
+                    <td>author name</td>
+                    <td>author email</td>
+                    <td colspan="2">Action</td>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td>Book name</td>
+                    <td>price</td>
+                    <td>author name</td>
+                    <td>author email</td>
+                    <td>Book name</td> -->
+                <!-- </tr>  -->
+            </tbody>
+
+
+        </table>
+    </div>
+
+    <div>
+
+
+
+    </div>
+
+
+
+
+    <script src="./2.js"></script>
+</body>
+
+</html>
